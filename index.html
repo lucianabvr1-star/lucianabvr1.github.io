@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luciana Velasquez - Estudiante UCSP</title>
+  <title>Luciana Velasquez</title>
   <meta name="description" content="Página personal de Luciana Velasquez, estudiante de Administración de Negocios en la UCSP.">
   <meta name="author" content="Luciana Velasquez">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
   <style>
     * {
       margin: 0;
@@ -21,15 +22,32 @@
       line-height: 1.6;
     }
 
+    /* --- HEADER MODIFICADO --- */
     header {
-      background: linear-gradient(135deg, #0a1a33, #12264a); /* navy degradado */
+      background: linear-gradient(135deg, #0a1a33, #12264a);
       color: #ffffff;
-      padding: 60px 20px;
-      text-align: center;
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
     }
 
-    header h1 {
+    .foto-carnet {
+      width: 120px;   /* tamaño carnet */
+      height: 160px;  /* tamaño carnet */
+      object-fit: cover;
+      border-radius: 8px;
+      border: 3px solid #ffffff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    .header-text h1 {
       font-size: 2.5em;
+      margin-bottom: 5px;
     }
 
     nav {
@@ -101,12 +119,17 @@
     }
   </style>
 </head>
+
 <body>
 
+  <!-- ✅ HEADER NUEVO COMPLETO -->
   <header>
-    <img src="TU-FOTO-AQUI.jpg" alt="Foto de Luciana Velasquez" style="width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid #ffffff;box-shadow:0 4px 10px rgba(0,0,0,0.2);margin-bottom:20px;">
-    <h1>Luciana Velasquez - Estudiante UCSP</h1>
-    <p>Estudiante de Administración de Negocios - UCSP</p>
+    <img src="https://drive.google.com/uc?export=view&id=1EpHlolG4rW2kxmEonbxnqFMX5DXEZrxc" class="foto-carnet">
+
+    <div class="header-text">
+      <h1>Luciana Velasquez</h1>
+      <p>Estudiante de Administración de Negocios - UCSP</p>
+    </div>
   </header>
 
   <nav>
@@ -117,20 +140,23 @@
 
   <section id="sobre-mi">
     <h2>Sobre mí</h2>
-    <p>Tengo 19 años.
-    <p> Soy la hermana menor de tres hijos.
-    <p> Me gradué del colegio Anglo Americano Prescott. 
+    <p>Tengo 19 años.</p>
+    <p> Soy la hermana menor de tres hijos.</p>
+    <p> Me gradué del colegio Anglo Americano Prescott.</p>
     <p> Mi hermano es mi modelo a seguir. Se llama 
       <a href="https://www.linkedin.com/in/diego-velasquez-ramos/" target="_blank">Diego Velasquez</a> y actualmente trabaja en Caja Arequipa en el área de People Analytics and Strategy Analyst.
+    </p>
     <p> Estoy en mi cuarto ciclo en la carrera de
       <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">Administración de Negocios en la Universidad Católica San Pablo</a>.
     </p>
+
     <p>Durante este tiempo he establecido buenas amistades con los siguientes compañeros:</p>
     <ul>
       <li><a href="https://www.instagram.com/brunogomezzzb/" target="_blank">Bruno Gomez</a></li>
       <li><a href="https://www.instagram.com/analuciamirandav/" target="_blank">Ana Lucia Miranda</a></li>
-      <li><a href=https://www.linkedin.com/in/nicol-fabiana-matos-neyra-0779ba386/" target="_blank">Nicol Matos</a></li>
+      <li><a href="https://www.linkedin.com/in/nicol-fabiana-matos-neyra-0779ba386/" target="_blank">Nicol Matos</a></li>
     </ul>
+
     <p>Mi pasatiempo favorito es salir con mis amigos, hacer deporte y viajar.</p>
   </section>
 
@@ -153,7 +179,7 @@
     <p>Si deseas contactarme, no dudes en enviarme un mensaje al siguiente correo:</p>
     <p>📧 <a href="mailto:luciana.velasquez@ucsp.edu.pe">luciana.velasquez@ucsp.edu.pe</a></p>
     <p>💼 También puedes visitar mi perfil de LinkedIn:
-      <a href="https://www.linkedin.com/in/luciana-velasquez-ramos-686288342//" target="_blank">Luciana Velasquez Ramos</a>
+      <a href="https://www.linkedin.com/in/luciana-velasquez-ramos-686288342/" target="_blank">Luciana Velasquez Ramos</a>
     </p>
   </section>
 
